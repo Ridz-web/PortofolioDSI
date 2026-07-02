@@ -1,144 +1,176 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portofolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-      
-    />
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <!-- bagian navbar -->
-      <nav
-        class="navbar navbar-expand-lg text-light shadow p-3 fixed-top"
-        style="background-color: #ff5722"
-      >
-        <div class="container-fluid ">
-          <a class="navbar-brand text-light fw-bolder fs-1" href="#hero">Welcome</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portofolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a
-                  class="nav-link active text-light fs-4"
-                  aria-current="page"
-                  href="#hero"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light fs-4" href="#about">about</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light fs-4" href="#">Pricing</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- akhir navbar -->
-    </header>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
 
-    <main
-      class="d-flex align-items-center min-vh-100 "
-      style="background-color: #fcdfa6;"
-    >
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-7 text-center text-md-start mb-5 mb-md-0">
+<body>
+  <header>
+    <!-- bagian navbar -->
+   <nav class="navbar text-light shadow p-2 fixed-top mx-auto rounded-bottom-circle" style="background-color: #ff5722; max-width: 500px; width: 90%; border: 2px solid black;">
+  <div class="container-fluid justify-content-center">
+    <ul class="navbar-nav d-flex flex-row justify-content-center text-center my-0">
+      <li class="nav-item">
+        <a class="nav-link active text-light fs-4 mx-2" aria-current="page" href="#hero">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fs-4 mx-2" href="#about">about</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fs-4 mx-2" href="#project">project</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <!-- akhir navbar -->
+  </header>
+
+
+  <main class="d-flex align-items-center min-vh-100 " style="background-color: #fcdfa6;">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-md-7 text-center text-md-start mb-5 mb-md-0">
+          <div data-aos="fade-right" data-aos-duration="900">
             <h1 class="fw-bolder text-dark display-4" style="font-size: 90px;">
               Ridho Budi Muta`ali
             </h1>
 
             <p class="text-secondary fs-4 mt-3">
               Seorang
-              <span class="fw-bold" style="color: #f2613f"
-                >frontend developer</span
-              >
+              <span class="fw-bold" style="color: #f2613f">frontend developer</span>
             </p>
           </div>
+        </div>
+        <div class="col-md-4 text-center rounded-circle " style="margin-left: 30px">
+          <div data-aos="fade-left" data-aos-duration="900">
+            <div class="d-inline-block shadow bg-white p-3 rounded-circle shadow-sm ms-0 ms-lg-5"
+              style="border-bottom: 4px solid #f2613f">
 
-          <div
-            class="col-md-4 text-center rounded-circle "
-            style="margin-left: 30px"
-          >
-            <div
-              class="d-inline-block shadow bg-white p-3 rounded-circle shadow-sm ms-0 ms-lg-5"
-              style="border-bottom: 4px solid #f2613f"
-            >
-              <img
-                src="images/Ridho.png"
-                class="img-fluid rounded-circle"
-                style="max-height: 600px; width: auto"
-                alt="Foto Profil"
-              />
+              <img src="images/Ridho.png" class="img-fluid rounded-circle" style="max-height: 600px; width: auto"
+                alt="Foto Profil" />
             </div>
           </div>
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
+  <section class="d-flex align-items-center justify-content-center min-vh-100">
     <div>
       <div class="container" id="about" style="margin-top: 100px;">
         <div class="align-items-center">
-          <div class="text-center text-md-start mb-5 mb-md-0">
-            <h1 class="fw-bolder text-center text-dark display-4" style="font-size: 7s0px">
-              About Me
-            </h1>
-            <p class="text-center"> saya Ridho Budi Muta`ali seorang siswa dari smkn 9 semarang, saya tertarik pada bidang pemograman terutama website, untuk saat ini pembelajaran saya terpusat pada bagian frontend website. mencakup HTML, CSS, dan JavaScript dll.</p>
-    </div>
-    <section id="kemampuan" class="py-5 bg-light">
-      <div data-aos="zoom-in">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-4 col-md-6">
-        <div
-          class="card border-0 shadow-sm h-100 text-center rounded-4">
-          <div
-            class="card-body p-5 border-top border-4"
-            style="border-color:#ff5722 !important;">
-            <h4 class="fw-bold mb-3">
-              Frontend
-            </h4>
-            <p class="text-muted mb-0">
-              HTML, CSS, JS, Bootstrap
-            </p>
+          <div data-aos="fade-down">
+            <div class="text-center text-md-start mb-5 mb-md-0">
+              <h1 class="fw-bolder text-center text-dark display-4" style="font-size: 7s0px">
+                About Me
+              </h1>
+              <p class="text-center"> saya Ridho Budi Muta`ali seorang siswa dari smkn 9 semarang, saya tertarik pada
+                bidang
+                pemograman terutama website, untuk saat ini pembelajaran saya terpusat pada bagian frontend website.
+                mencakup HTML, CSS, dan JavaScript dll.</p>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-</section>
-   <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
+          <section id="kemampuan" class="py-5">
+            <div data-aos="zoom-in">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow h-100 text-center rounded-4">
+                      <div class="card-body p-5 border-top border-4" style="border-color:#ff5722 !important;">
+                        <h4 class="fw-bold mt-4">
+                          HTML
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+                    <div class="card border-0 shadow h-100 text-center rounded-4">
+                      <div class="card-body p-5 border-top border-4" style="border-color:#ff5722 !important;">
+                        <h4 class="fw-bold mt-4">
+                          Bootstrap
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+                    <div class="card border-0 shadow h-100 text-center rounded-4">
+                      <div class="card-body p-5 border-top border-4" style="border-color:#ff5722 !important;">
+                        <h4 class="fw-bold mt-4">
+                          JavaScript Dasar
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+  </section>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+<section class="d-flex align-items-center justify-content-center min-vh-100" style="background-color: #fcdfa6;" id="project">
+    <div>
+      <div class="container" id="about" style="margin-top: 100px;">
+        <div class="align-items-center">
+          <div data-aos="fade-down">
+            <div class="text-center text-md-start mb-5 mb-md-0">
+              <h1 class="fw-bolder text-center text-dark display-4" style="font-size: 7s0px">
+               Project
+              </h1>
+              <p class="text-center"> Berikut adalah beberapa project yang pernah saya buat.</p>
+            </div>
+          </div>
+          <section id="kemampuan" class="py-5">
+            <div data-aos="zoom-in">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow h-100 text-center rounded-4">
+                      <div class="card-body p-5 border-top border-4" style="border-color:#ff5722 !important;">
+                        <h4 class="fw-bold mt-4">
+                          HTML
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+                    <div class="card border-0 shadow h-100 text-center rounded-4">
+                      <div class="card-body p-5 border-top border-4" style="border-color:#ff5722 !important;">
+                        <h4 class="fw-bold mt-4">
+                          Bootstrap
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+                    <div class="card border-0 shadow h-100 text-center rounded-4">
+                      <div class="card-body p-5 border-top border-4" style="border-color:#ff5722 !important;">
+                        <h4 class="fw-bold mt-4">
+                          JavaScript Dasar
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
